@@ -1,0 +1,121 @@
+body {
+    background-color: aliceblue;
+   
+  }
+  .form{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(17, 91, 116);
+  
+  }
+  
+  
+  
+  
+  form {
+    
+    width: 80%;
+    color: white;
+    font-size: large;
+    font-weight: 400;
+    padding: 10px;
+  }
+  
+  label {
+    display: block;
+    width: 150px;
+    /* background-color: gray; */
+    /* margin: 20px; */
+    /* padding: 10px; */
+  }
+  
+  /* input {
+    width: 420px;
+    font-size: larger;
+  } */
+  
+  h1 {
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  .name,
+  .date,
+  .password, .others {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 40px;
+    padding: 10px auto;
+  }
+  
+  /* .others {
+    display: flex;
+    align-items: center;
+    margin: 20px 40px;
+    padding: 10px auto;
+    gap: 256px;
+  } */
+  
+  .first,
+  .last,
+  .dob,
+  .age,
+  .pswd,
+  .cpswd,
+  .email,
+  .gender {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .button {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  button {
+    /* margin: 0px 60px; */
+    /* width: 220px; */
+    text-align: center;
+    font-size: 0.8em;
+    background-color: rgb(179, 13, 13);
+    color: white;
+    border-radius: 6px;
+    padding: 5px 40px ;
+  }
+  
+  input,
+  select {
+    width: 300px;
+    border-radius: 4px;
+    padding: 6px;
+  }
+  
+  select {
+    width: 310px;
+  }
+  .position,
+  .program {
+    display: flex;
+    align-items: center;
+    margin: 20px 40px 20px 85px;
+  }
+  input[type="radio"],
+  input[type="checkbox"] {
+    width: 15px;
+  }
+  .radio,
+  .box {
+    width: 200px;
+  }
+  

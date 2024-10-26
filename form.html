@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyForm</title>
+    <style>
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background-color: gray; 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        form {
+            width: 300px;
+            height: 400px;
+            margin-top: 10px;
+            background-color: darkcyan;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        input{
+            width: 90%;
+          
+            margin: 10px;
+        }
+        .input{
+            margin-left: 20px;
+            padding-left: 20px;
+            border-radius: 10px;
+            height: 20px;
+        }
+        h3{
+            font-weight: 600;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: xx-large;
+        }
+        label{
+            margin-left: 5px;
+            font-weight: 400;
+        }
+        button{
+            width: 80px;
+            height: 30px;
+            display: block;
+            margin: auto;
+            border-radius: 10px;
+            font-size: large;
+            font-weight: 500;
+        }
+        p{
+            text-align: center;
+           font-size: smaller;
+        }
+        a{  
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <h3>Register</h3>
+        <form action="" >
+            <div>
+                <label for="">Full name</label>
+            <input type="text" placeholder="Enter Full Name" /> 
+            </div>
+           <div>
+            <label for="">Email</label>
+            <input type="email" placeholder="Enter Email">
+           </div>
+            <div>
+                <label for="">Phone Number</label>
+            <input type="phone" placeholder="Enter Phone Number">
+            </div>
+            <div>
+                <label for="">Password</label>
+            <input type="password" placeholder="Enter Password">
+            </div>
+           <div>
+            <label for="">Confirm Password</label>
+            <input type="password" placeholder="Confirm Password">
+           </div>
+
+           <button>Submit</button>
+           <p>Already have an account? 
+                <a href="#">Log In</a>
+            </p>
+        </form>
+       
+    </div>
+   
+</body></html>
