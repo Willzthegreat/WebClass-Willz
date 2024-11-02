@@ -1,0 +1,317 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 0.9em;
+}
+nav,
+.sec,
+.nav-end {
+  display: flex;
+  padding: 10px;
+  
+}
+nav {
+  background-color: #fff;
+  position: fixed;
+  z-index: 50;
+}
+/* header{
+  position: fixed;
+  z-index: 100;
+} */
+.sec,
+.search,
+.logo,
+.nav-end {
+  margin: 0px 20px;
+}
+.logo1 {
+  margin-left: 10px;
+  margin-top: 5px;
+  width: 50px;
+  height: 50px;
+}
+.search {
+  display: flex;
+  margin: 18px;
+  width: 22vw;
+  height: 4vh;
+  border-radius: 20px;
+  padding: 3px;
+  background-color: #f1f1f1;
+}
+
+.search > a > i {
+  color: #c1bfbf;
+  font-size: 26px;
+  margin-top: 2px;
+}
+
+#search {
+  border-radius: 13px;
+  border: 1px solid;
+  width: 13vw;
+  height: 4vh;
+  border: 0;
+  outline: 0;
+  background-color: #f1f1f1;
+}
+
+.home,
+.videos,
+.shop,
+.group,
+.gaming {
+  margin: 2px 50px;
+}
+
+i {
+  font-size: 32px;
+  margin: 2px 0px 2px 5px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+.nav-end {
+  margin-left: 85px;
+}
+
+.profile > img {
+  width: 30px;
+}
+
+.menu,
+.profile {
+  border-radius: 50%;
+  border: 2px solid rgb(242, 242, 242);
+  background-color: rgb(242, 242, 242);
+  margin: 0px 0px 0px 20px;
+  width: 43px;
+  height: 42px;
+  box-shadow: 4px;
+}
+
+/* Header/ nav-bar ends here */
+
+/* main Starts Here */
+
+.section {
+  background-color: rgb(232, 232, 232);
+  display: grid;
+  grid-template-columns: 2fr 5fr 3fr;
+}
+
+.profile-start {
+  margin: 20px;
+}
+
+.pro > img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.profile-s {
+  display: flex;
+  margin-top: 23px;
+}
+
+.nam,
+.nam1 {
+  margin-left: 12px;
+  margin-top: 10px;
+}
+
+.pro1 {
+  border-radius: 50%;
+  border: 2px solid #d8d8d8;
+  background-color: #d8d8d8;
+  width: 40px;
+  height: 40px;
+}
+
+/* Section 2 Starts Here */
+
+.main-c {
+  margin: 25px 140px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 4px;
+}
+
+.main-cg,
+.main-ct, .page-profile {
+  display: flex;
+}
+
+.main-ct > .pro {
+  margin: 20px 5px;
+}
+
+.rt {
+  background-color: white;
+}
+
+.main-ct > .search {
+  background-color: aqua;
+  width: 35vw;
+  height: 6vh;
+  padding: 5px 20px;
+  border-radius: 30px;
+  background-color: rgb(232, 232, 232);
+}
+
+.main-ct > .search > input {
+  margin: 1px 10px;
+  width: 35vw;
+  height: 6vh;
+  padding: 5px 10px;
+  border-radius: 25px;
+  outline: 0;
+  border: 0;
+  background-color: rgb(232, 232, 232);
+}
+
+.main-ca {
+  display: flex;
+  justify-content: space-around;
+}
+
+.category {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px 132px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.categ {
+  width: 129px;
+  height: 26vh;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin: 0px 2px;
+}
+
+.cate-img > img {
+  /* margin-left: 1px; */
+  margin-top: 3px;
+  margin-left: 3px;
+  width: 8vw;
+  height: 25vh;
+  border-radius: 6px;
+}
+
+.cate-img > .md > img {
+  margin-left: 3px;
+  margin-top: 4px;
+  width: 8vw;
+  height: 18vh;
+  border-radius: 6px 6px 0px 0px;
+}
+
+.dm {
+  margin: 16px 14px 12px 14px;
+  color: #525151;
+}
+
+.profile-dis {
+  margin: 10px 140px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.pro-pics {
+  display: flex;
+  margin: 15px 40px 5px 34px;
+  border-radius: 10px;
+  padding: 2px;
+}
+
+.pro {
+  margin-top: 3px;
+}
+
+.nam2 {
+  margin-left: 9px;
+  margin-top: 7px;
+}
+
+.na1 {
+  margin-left: -3px;
+  margin-top: 3px;
+  display: flex;
+}
+
+.naa1 {
+  margin-top: 6px;
+  margin-left: 3px;
+}
+.na-1 {
+  margin-top: -8px;
+  margin-left: 6px;
+}
+
+.n1a {
+  margin-left: 390px;
+}
+
+.text {
+  margin: 30px;
+}
+
+.vid {
+  background-color: aliceblue;
+}
+
+/* Section 3 Starts Here */
+
+.promo {
+  display: flex;
+  margin: 20px 5px;
+  border-radius: 10px 0px 0px 10px ;
+  background-color: #ededed;
+}
+
+.spon > img {
+  width: 8vw;
+  height: 15vh;
+  margin: 20px 10px 10px 10px;
+  border-radius: 10px;
+}
+.page-menu {
+  margin-left: 130px;
+  margin-top: 10px;
+}
+
+.n1b {
+  margin-left: 140px;
+}
+
+.button{
+  display: flex;
+  margin-left: 60px;
+}
+.but {
+  margin: 5px 10px;
+  width: 7vw;
+  height: 4vh;
+  background-color: rgb(30, 0, 255);
+  color: white;
+  border-radius: 6px;
+  border: 1px;
+}
+
+.butt {
+  margin: 5px 10px;
+  width: 7vw;
+  height: 4vh;
+  background-color: rgb(192, 192, 192);
+  /* color: white; */
+  border-radius: 6px;
+  border: 1px;
+}
